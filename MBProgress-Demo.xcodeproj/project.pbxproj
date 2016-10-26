@@ -14,6 +14,7 @@
 		C451DEA81DBF99D700B70A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C451DEA61DBF99D700B70A4E /* LaunchScreen.storyboard */; };
 		C451DEB41DBF9C0300B70A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C451DEB21DBF9C0300B70A4E /* ViewController.m */; };
 		C451DEB71DBF9C3D00B70A4E /* JRProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C451DEB61DBF9C3D00B70A4E /* JRProgressHUD.m */; };
+		C49117461DC0C897003AA8A8 /* JRTestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49117451DC0C897003AA8A8 /* JRTestDemoViewController.m */; };
 		FBC3D32F15AAFED579BAF447 /* libPods-MBProgress-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1FA8C2F42E7C28056A6A9E /* libPods-MBProgress-Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		C451DEB21DBF9C0300B70A4E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C451DEB51DBF9C3D00B70A4E /* JRProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRProgressHUD.h; sourceTree = "<group>"; };
 		C451DEB61DBF9C3D00B70A4E /* JRProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRProgressHUD.m; sourceTree = "<group>"; };
+		C49117441DC0C897003AA8A8 /* JRTestDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTestDemoViewController.h; sourceTree = "<group>"; };
+		C49117451DC0C897003AA8A8 /* JRTestDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTestDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 				C451DE9B1DBF99D700B70A4E /* AppDelegate.h */,
 				C451DE9C1DBF99D700B70A4E /* AppDelegate.m */,
 				C451DEB01DBF9C0300B70A4E /* Classes */,
+				C49117431DC0C885003AA8A8 /* Demo */,
 				C451DEB31DBF9C0300B70A4E /* JRProgressHUD */,
 				C451DE981DBF99D700B70A4E /* Supporting Files */,
 			);
@@ -122,6 +126,15 @@
 				C451DEB61DBF9C3D00B70A4E /* JRProgressHUD.m */,
 			);
 			path = JRProgressHUD;
+			sourceTree = "<group>";
+		};
+		C49117431DC0C885003AA8A8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C49117441DC0C897003AA8A8 /* JRTestDemoViewController.h */,
+				C49117451DC0C897003AA8A8 /* JRTestDemoViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 				C451DEB71DBF9C3D00B70A4E /* JRProgressHUD.m in Sources */,
 				C451DEB41DBF9C0300B70A4E /* ViewController.m in Sources */,
 				C451DE9D1DBF99D700B70A4E /* AppDelegate.m in Sources */,
+				C49117461DC0C897003AA8A8 /* JRTestDemoViewController.m in Sources */,
 				C451DE9A1DBF99D700B70A4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
